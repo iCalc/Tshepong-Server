@@ -272,24 +272,28 @@ namespace Tshepong
             #region General
             //Display user details
             txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            txtUserDetails.Text = BusinessLanguage.Userid + " - " + BusinessLanguage.Region + " - " + BusinessLanguage.BussUnit;
+            //txtDatabaseName.Text = BusinessLanguage.BussUnit;
+            //txtDatabaseName.Text = BusinessLanguage.BussUnit;//txtDatabaseName.Text = BusinessLanguage.BussUnit;
+            //txtDatabaseName.Text = BusinessLanguage.BussUnit;
+            //txtDatabaseName.Text = BusinessLanguage.BussUnit;
             //txtDatabaseName.Text = BusinessLanguage.BussUnit;
 
+                //txtDatabaseName.Text = BusinessLanguage.BussUnit;
+
+                //txtDatabaseName.Text = BusinessLanguage.BussUnit;
+                //txtDatabaseName.Text = BusinessLanguage.BussUnit;
             txtPeriod.Text = BusinessLanguage.Period;
 
-            // Set up the delays for the ToolTip.
-            tooltip.AutoPopDelay = 5000;
-            tooltip.InitialDelay = 1000;
-            tooltip.ReshowDelay = 500;
-            //Force the ToolTip text to be displayed whether or not the form is active.
-            tooltip.ShowAlways = true;
-
-            //Set up the ToolTip text for the Button and Checkbox.
-            tooltip.SetToolTip(this.btnImportADTeam, "Clocked Shifts");
-            tooltip.SetToolTip(this.tabLabour, "Bonus Shifts");
-            tooltip.SetToolTip(this.btnSearch, "Search");
-
-            listBox2.Enabled = false;
-            listBox3.Enabled = false;
+            
 
 
             #endregion
